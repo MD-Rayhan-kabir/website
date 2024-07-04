@@ -16,7 +16,10 @@
     padding: 5px 10px;
  padding: auto;
  }
-
+label{
+    display: block;
+    padding-top: 10px;
+}
 
 </style>
 
@@ -77,13 +80,18 @@
     <br>
 
 <form >
-<label for="">
-    Name:
-<input type="text" name="" id="" placeholder="your Name"> 
-Phone Number 
-<input type="Number" name="" id="" placeholder="your Name"> 
-Address 
-<input type="text" name="" id="" placeholder="your Name"> 
+<label for="block">
+    Your Name:
+<input type="text" name="block" id="" placeholder="your Name"> </label>
+<label for="">Your Phone: 
+    <input type="Number" name="" id="" placeholder="your Name"></label>
+ 
+    <label for="">
+   You Mail :
+    <input type="text" name="" id="" placeholder="your Name"> 
+
+ </label>
+
 <fieldset>
     <legend>choche you</legend>
     <label for="choce">
@@ -95,15 +103,27 @@ Address
         blue
         <input type="radio" name="choce" id="">
     </label>
-      
-    
+  
 </fieldset>
-
-
-
 
 </label>
 
+<fieldset>
+    <legend>Multipole Choche </legend>
+    <label for="">
+        Reading Book 
+        <input type="checkbox" name="" id="">
+
+    </label>
+    <label for="">
+        Woorking 
+        <input type="checkbox" name="" id="">
+        
+    </label>
+</fieldset>
+
+<input type="reset" value="reset">
+<input type="submit" value="Sunmit">
 
 </form>
 
