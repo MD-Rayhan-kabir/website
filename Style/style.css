@@ -1,0 +1,28 @@
+
+header{
+    float: right;
+    
+}
+
+       ul>li{
+            display: inline;
+           margin: auto 20px;
+
+
+       }
+       li>a{
+
+        text-decoration: none;
+       }
+       
+       h1{
+        color: brown;
+    }
+
+       footer{
+        margin-top: 20px;
+            text-align: center;
+
+       }
+
+
